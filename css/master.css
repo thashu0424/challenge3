@@ -1,0 +1,245 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*
+{
+box-sizing: border-box;
+}
+@font-face {
+  font-family: "papu";
+  src: url(../fonts/pops.ttf);
+}
+@font-face {
+  font-family: "papu1";
+  src: url(../fonts/sans.ttf);
+}
+html,body
+{
+
+  height: 100%;
+}
+nav
+{
+  display: flex;
+  padding-top:4rem;
+  padding-bottom: 4rem;
+}
+.content>.illus>img
+{
+  width:85%;
+  height: auto;
+}
+.cont
+{
+  padding-top: 10%;
+
+}
+.cont>h1
+{
+  margin: 0 auto;
+  width: 75%;
+  font-family: "papu";
+}
+.cont>p
+{
+  padding-top:30px;
+  margin: 0 auto;
+  width:90%;
+  font-family: "papu1";
+  font-size: 150%;
+}
+.top
+{
+  background-image: url(../images/mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+}
+.but-1
+{
+  margin-left: auto;
+  padding-right:2.5%;
+}
+.content
+{
+  text-align: center;
+}
+.content>div
+{
+  margin: auto;
+}
+.img1
+{
+  padding-left:2.5%;
+}
+.img1>img
+{
+  width:150px;
+}
+.but-1>button
+{
+  font-family: "papu";
+  font-weight: bolder;
+  background-color: white;
+  border: 1px solid white;
+  width: 136px;
+  height: 32px;
+  border-radius:50px;
+  box-shadow: 0px 3px 31px -10px rgba(0, 0, 0, 0.5);
+}
+.but-2
+{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.but-2>button
+{
+    font-family: "papu";
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 62%;
+    height: 50px;
+    border-radius: 30px;
+    background: #ff52bf;
+    color: #ffffff;
+    border: 1px solid #ff52bf;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.mid1
+{
+  margin-top:  10%;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.content1>h1
+{
+  padding-top: 10%;
+  font-family: "papu";
+  font-size: 30px;
+}
+.content1>p
+{
+  margin: 0 auto;
+  font-family: "papu1";
+  font-size:20px;
+  width: 88%;
+  padding-bottom: 10%;
+}
+.mid1>.grow>img{
+  padding-top: 10%;
+  width:75%;
+  height: auto;
+}
+
+
+
+.mid2
+{
+  margin-top:  10%;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.content2>h1
+{
+  padding-top: 10%;
+  font-family: "papu";
+  font-size: 30px;
+}
+.content2>p
+{
+  margin: 0 auto;
+  font-family: "papu1";
+  font-size:20px;
+  width: 88%;
+  padding-bottom: 10%;
+}
+.mid2>.grow1>img{
+  padding-top: 10%;
+  width:75%;
+  height: auto;
+}
+
+
+.mid3
+{
+  margin-top:  10%;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.content3>h1
+{
+  padding-top: 10%;
+  font-family: "papu";
+  font-size: 30px;
+}
+.content3>p
+{
+  margin: 0 auto;
+  font-family: "papu1";
+  font-size:20px;
+  width: 88%;
+  padding-bottom: 10%;
+}
+.mid3>.grow2>img{
+  padding-top: 10%;
+  width:75%;
+  height: auto;
+}
+
+
+.mid4
+{
+  z-index:-9;
+  margin-top:  10%;
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.content4>h1
+{
+  padding-top: 5%;
+  font-family: "papu";
+  font-size: 25px;
+}
+.pap
+{
+  padding-top: 10%;
+  background-color:  hsl(192, 100%, 9%);
+}
+
+footer>ul
+{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: white;
+}
+ul>li
+{
+  font-size:22px;
+  font-family: "papu"
+}
+ul>li>img
+{
+  width:70px;
+  padding-right:40px;
+}
