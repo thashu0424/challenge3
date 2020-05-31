@@ -49,9 +49,7 @@ nav
 }
 .top
 {
-  background-image: url(../images/mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
   display: flex;
   flex-direction:column;
 }
@@ -60,14 +58,17 @@ nav
   margin-left: auto;
   padding-right:2.5%;
 }
+.jack
+{
+  background-image: url(../images/mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .content
 {
   text-align: center;
 }
-.content>div
-{
-  margin: auto;
-}
+
 .img1
 {
   padding-left:2.5%;
@@ -204,7 +205,6 @@ nav
 
 .mid4
 {
-  z-index:-9;
   margin-top:  10%;
   display:flex;
   flex-direction:column;
@@ -225,40 +225,267 @@ nav
   padding-top: 10%;
   background-color:  hsl(192, 100%, 9%);
 }
-
 footer>ul
 {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   list-style: none;
   color: white;
 }
-ul>li
+ul>span>li
 {
   padding-top: 35px;
   display: flex;
   font-size:22px;
   font-family: "papu"
 }
-ul>li>div>img
+ul>.first>li>div>img
 {
 height: auto;
 width: 100%;
 }
-ul>li>p
+ul>.first>li>p
 {
   margin: 0;
   padding-left: 40px;
 }
-ul>li>div
+ul>span>li>div
 {
 width:35px;
 }
-ul>li>.location
+ul>.first>li>.location
 {
   width:60px;
 }
 footer>img
 {
   padding-left: 40px;
+}
+.but-21
+{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.but-21>button
+{
+    font-family: "papu";
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 62%;
+    height: 50px;
+    border-radius: 30px;
+    background: #ff52bf;
+    color: #ffffff;
+    border: 1px solid #ff52bf;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+@media only screen and (min-width:756px)
+{
+  .img1>img
+  {
+    width:200px;
+  }
+  .but-1>button
+  {
+    font-family: "papu";
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid white;
+    width: 200px;
+    height: 47px;
+    border-radius:50px;
+    box-shadow: 0px 3px 31px -10px rgba(0, 0, 0, 0.5);
+  }
+  .jack
+  {
+    background-image: url(../images/back.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+  .content
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .but-2>button
+  {
+      font-family: "papu";
+      font-size: 1.1rem;
+      font-weight: 700;
+      width: 62%;
+      height: 50px;
+      border-radius: 30px;
+      background: #ff52bf;
+      color: #ffffff;
+      border: 1px solid #ff52bf;
+      box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  }
+  .illus
+  {
+    padding-right:300px;
+  }
+  .content>.illus>img
+  {
+    width:150%;
+    height: auto;
+  }
+  .cont
+  {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+  }
+  .cont>h1
+  {
+    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+    margin-left: 10%;
+    text-align: left;
+    width:70%;
+    font-family: "papu";
+    font-size: 2.1rem;
+  }
+  .cont>p
+  {
+    text-align: left;
+    padding-top:30px;
+    margin: 0 auto;
+    width:80%;
+    font-family: "papu1";
+    font-size:1rem;
+  }
+  .but-2
+  {
+            margin-left: 10%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .but-2>button
+  {
+
+      font-family: "papu";
+      font-size: 0.7rem;
+      font-weight: 700;
+      width: 180%;
+      height: 45px;
+      border-radius: 30px;
+      background: #ff52bf;
+      color: #ffffff;
+      border: 1px solid #ff52bf;
+      box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  }
+  .mid1
+  {
+    margin-top:  10%;
+    display:flex;
+    flex-direction:row-reverse;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  }
+  .content1>h1
+  {
+    padding-left: 6%;
+    padding-top: 10%;
+    font-family: "papu";
+    font-size: 30px;
+  }
+  .content1
+  {
+    padding-bottom: 5%;
+  }
+  .mid2
+  {
+    margin-top:  10%;
+    display:flex;
+    flex-direction:row-reverse;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  }
+  .content2>h1
+  {
+    padding-left: 6%;
+    padding-top: 10%;
+    font-family: "papu";
+    font-size: 30px;
+  }
+  .content2
+  {
+    padding-bottom: 5%;
+  }
+  .mid3
+  {
+    margin-top:  10%;
+    display:flex;
+    flex-direction:row-reverse;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  }
+  .content3>h1
+  {
+    padding-left: 6%;
+    padding-top: 10%;
+    font-family: "papu";
+    font-size: 30px;
+  }
+  .content3
+  {
+    padding-bottom: 5%;
+  }
+  .mid4
+  {
+    z-index:-9;
+    margin-top:10%;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+    padding-bottom: 1%;
+  }
+  footer>ul>.first
+  {
+    width:33.33%;
+  }
+  footer>ul>.second
+  {
+    width:33.33%;
+  }
+  footer>ul>.third
+  {
+    width:33.33%;
+  }
+  footer>ul>.first>li:first-child>p
+{
+  width:60%;
+}
+ul>.first>li>p
+{
+  font-size: 0.9rem;
+  margin: 0;
+  padding-left: 40px;
+}
+ul>.first>li>div
+{
+width:15px;
+}
+ul>.first>li>.location
+{
+  width:20px;
+}
+footer>ul
+{
+  display: flex;
+  flex-direction: row;
+}
+
 }
