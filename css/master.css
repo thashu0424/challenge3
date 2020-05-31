@@ -235,11 +235,16 @@ footer>ul
 }
 ul>li
 {
+  display: flex;
   font-size:22px;
   font-family: "papu"
 }
 ul>li>img
 {
-  width:70px;
-  padding-right:40px;
+height: auto;
+width: 1000px;
+}
+ul>li>p
+{
+  margin: 0;
 }
